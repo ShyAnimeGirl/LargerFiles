@@ -25,3 +25,5 @@ Finally I simply merge the two folders together which gives me only the smaller 
 If an error occurs it is printed in the output, so check your text file first before running the xargs command! 
 
 Because I use this to compress images occasionally I run into the following problem; I will have a file named something like image.jpg and a file named image.png. When I compress the files to all be jpegs my compression system will overwrite or ignore one of those files, thus making my compressed directory have one less file in it than the original directory and this makes the script not work. The files causing this can sometimes be hard to locate, so my solution is to split the different file types into separate folders and run the script multiple times. 
+
+This does no checking of filenames or extensions so you could technically have two folders with the same number of files each and it will give you a list of the larger files when you compare the lists alphabetically, though this is not the intended use case for the script and makes no sense. 

@@ -1,5 +1,5 @@
 # LargerFiles
-A small Python script which takes 2 input directories and outputs a list of the LARGER files between those two directories. 
+A small Python script which takes two input directories and outputs a list of the LARGER files between those two directories. 
 
 This script requires BOTH directories to contain the exact same number of files and both folders must contain files with the exact same names, the script does no advanced checking of these requirements so it is up to you.
 

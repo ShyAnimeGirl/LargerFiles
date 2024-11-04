@@ -5,7 +5,7 @@ This script requires BOTH directories to contain the exact same number of files 
 
 Most file explorers when merging files of the same name will allow you to automatically keep the larger of the two files, but there is never an option to automatically keep only the smaller of the two files, this script allows for this and is very useful when trying to compress a large amount of files that sometimes do not benefit from compression such as images. 
 
-### Useage
+### Usage
 I use this script to find and delete images that were not reduced in file size due to compression.
 
 First I take my folder containing files I wish to compress and duplicate it.
